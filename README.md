@@ -1,4 +1,4 @@
-https://img.shields.io/badge/github-entrega_de_TPs-blue
+img.shields.io/badge/github-entrega_de_TPs-red
 
 # Actividad Práctica: Introducción a Interfaces (POO) y Flujo de Trabajo con Git (Fork + PR)
 
