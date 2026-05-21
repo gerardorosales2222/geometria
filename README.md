@@ -2,7 +2,7 @@
 
 # Actividad Práctica: Introducción a Interfaces (POO) y Flujo de Trabajo con Git (Fork + PR)
 
-## 1.Desafío de Programación: Completar el Contrato
+## 1. Desafío de Programación: Crear la Interface faltante
 En este repositorio se encuentra la estructura inicial de un sistema geométrico compuesto por tres clases dentro del paquete Geometria.
 
 Si clonan el proyecto e intentan compilarlo en su IDE, notaran que el compilador arroja un error inmediato. Esto sucede porque tanto la clase Circulo como la clase Rectangulo declaran explícitamente que implementan una interfaz llamada Figura, pero dicha interfaz no existe actualmente en el proyecto.
@@ -14,7 +14,7 @@ Deberás crear el archivo faltante Figura.java dentro del paquete Geometria y de
 
 ### Geometria.java
 ```java
-package Geometria;
+package geometria;
 
 public class Geometria {
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Geometria {
 ```
 ### Rectangulo.java
 ```java
-package Geometria;
+package geometria;
 
 public class Rectangulo implements Figura {   
     private double base;
@@ -58,7 +58,7 @@ public class Rectangulo implements Figura {
 ```
 ### Circulo.java
 ```java
-package Geometria;
+package geometria;
 
 public class Circulo implements Figura {
     private double radio;
