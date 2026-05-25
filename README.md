@@ -78,7 +78,20 @@ public class Circulo implements Figura {
     }    
 }
 ```
+### Creacion de la intefaz(SOLUCION):
+```java
+package geometria;
 
+/**
+ *
+ * @author jogag
+ */
+public interface Figura {
+  public double calcularArea(); 
+  public double calcularPerimetro();
+}
+
+```
 ## 2. Protocolo de Entrega con Git (Paso a Paso)
 Sigan rigurosamente esta secuencia de comandos para efectuar la entrega de la actividad de manera correcta:
 
