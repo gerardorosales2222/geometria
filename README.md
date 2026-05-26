@@ -106,7 +106,7 @@ cd NOMBRE-DEL-REPO
 Para mantener un historial organizado, está prohibido subir modificaciones directamente sobre la rama main. Creen una rama local dedicada utilizando su apellido para identificarla:
 
 ```bash
-git checkout -b feature/solucion-TU-APELLIDO
+git checkout -b feature/TU-APELLIDO
 ```
 (Ejemplo concreto: git checkout -b feature/maldonado)
 
