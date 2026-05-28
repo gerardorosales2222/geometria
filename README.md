@@ -12,6 +12,14 @@ Deberás crear el archivo faltante Figura.java dentro del paquete Geometria y de
 
 ## Código Base del Proyecto:
 
+### Figura.java
+```java
+public interface Figura {
+    double calcularArea();
+    double calcularPerimetro();
+}
+```
+
 ### Geometria.java
 ```java
 package geometria;
