@@ -12,7 +12,7 @@ Deberás crear el archivo faltante Figura.java dentro del paquete Geometria y de
 
 ## Código Base del Proyecto:
 
-### Figuera.java
+### Figura.java
 ```java
 public interface Figura {
     public double calcularArea();
