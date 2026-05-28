@@ -78,6 +78,15 @@ public class Circulo implements Figura {
     }    
 }
 ```
+### Figura.java
+```java
+package geometria;
+
+public interface Figura {
+    double calcularArea ();
+    double calcularPerimetro ();
+}
+```
 
 ## 2. Protocolo de Entrega con Git (Paso a Paso)
 Sigan rigurosamente esta secuencia de comandos para efectuar la entrega de la actividad de manera correcta:
