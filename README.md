@@ -13,7 +13,9 @@ Deberás crear el archivo faltante Figura.java dentro del paquete Geometria y de
 ## Código Base del Proyecto:
 
 ### Geometria.java
+
 ```java
+
 package geometria;
 
 public class Geometria {
@@ -31,9 +33,12 @@ public class Geometria {
         System.out.println("Perimetro rectangulo: " + figura3.calcularPerimetro());                
     }
 }
+
 ```
 ### Rectangulo.java
+
 ```java
+
 package geometria;
 
 public class Rectangulo implements Figura {   
@@ -55,9 +60,12 @@ public class Rectangulo implements Figura {
         return this.base * 2 + this.altura * 2;
     }
 }
+
 ```
 ### Circulo.java
+
 ```java
+
 package geometria;
 
 public class Circulo implements Figura {
@@ -77,7 +85,26 @@ public class Circulo implements Figura {
         return 2 * Math.PI * radio;
     }    
 }
+
 ```
+
+### Interfaz Figura.java 
+
+```java
+
+package geometria;
+
+/**
+ *
+ * @author Marisol
+ */
+public interface Figura{
+  double calcularArea();
+  double calcularPerimetro();
+  
+}
+
+´´´
 
 ## 2. Protocolo de Entrega con Git (Paso a Paso)
 Sigan rigurosamente esta secuencia de comandos para efectuar la entrega de la actividad de manera correcta:
